@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+
+     <footer>
+        <h1>Formulário aula 6</h1>
+
+        <section id="contato">
+
+            <h2>Contato</h2>
+
+            <p>Preencha o formulário abaixo:</p>
+
+            <form action="">
+
+                <label for="nome">Nome completo: </label>
+                <input type="text" id="nome" name="nome" required> <br>
+
+                <label for="email">E-mail: </label>
+                <input type="email" id="email" name="email" required> <br>
+
+                <label for="idade">Idade: </label>
+                <input type="idade" id="idade" name="idade"><br>
+
+                <label for="materia">Selecione a matéria que você está se candidatando para lecionar: </label>
+                <select name="materia" id="materia">
+                    <option value="materia">Matemática</option>
+                    <option value="materia">Português</option>
+                    <option value="materia">Biologia</option>
+                    <option value="materia">Ciências</option>
+                    <option value="materia">História</option>
+                    <option value="materia">Geografia</option>
+                    <option value="materia">Artes</option>
+                </select>
+
+                <br>
+
+                 <label for="escolaridade">Selecione seu nível de escolaridade: </label>
+                <select name="escolaridade" id="escolaridade">
+                    <option value="escolaridade">Ensino superior completo</option>
+                    <option value="escolaridade">Cursando mestrado</option>
+                    <option value="escolaridade">Mestrado completo</option>
+                    <option value="escolaridade">Cursando doutorado</option>
+                    <option value="escolaridade">Doutorado completo</option>
+                </select>
+
+                <br>
+
+                <label for="descricao">Faça uma deve descrição sobre si mesmo: </label> <br>
+                <textarea name="descricao" id="descricao" cols="40" rows="5" required></textarea> <br>
+
+                <br>
+
+                <input type="submit" value="Enviar">
+
+            </form>
+
+        </section>
+    </footer>
+    
+</body>
+</html>
