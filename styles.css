@@ -87,6 +87,7 @@ footer {
 
 .icones-contato {
   display: flex;
+  justify-content: center;
   gap: 25px;
   margin-top: 20px;
 }
@@ -102,3 +103,24 @@ footer {
   color: #0ea5e9;
 }
 
+.foto-perfil {
+
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; /* deixa redonda */
+  display: block;
+  margin: 20px auto; /* centraliza */
+  object-fit: cover;
+  border: 3px solid #00bfff; /* opcional */
+}
+
+#sobre {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#sobre p {
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
